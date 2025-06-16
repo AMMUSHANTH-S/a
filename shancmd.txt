@@ -1,0 +1,421 @@
+🟩 Type 1 – Most Used and Common Commands
+
+1. ls        - List directory contents
+2. cp        - Copy files and directories
+3. mv        - Move or rename files
+4. rm        - Remove files or directories
+5. cd        - Change current directory
+6. pwd       - Print working directory
+7. mkdir     - Create directories
+8. touch     - Create an empty file or update timestamp
+9. echo      - Print text to terminal
+10. cat      - View contents of a file
+11. chmod    - Change file permissions
+12. chown    - Change file ownership
+13. uname    - Show system info
+14. df       - Report disk space usage
+15. du       - Estimate file space usage
+16. head     - Display first lines of a file
+17. tail     - Display last lines of a file
+18. man      - Show manual for command
+19. history  - Show command history
+20. clear    - Clear the terminal screen
+21. whoami       - Show the current username
+22. hostname     - Display or set the system's hostname
+23. date         - Print or set the system date and time
+24. cal          - Show a calendar
+25. sleep        - Delay for a specified time
+26. basename     - Extract filename from a path
+27. dirname      - Extract directory from a path
+28. wc           - Count lines, words, and bytes in text
+29. sort         - Sort lines of text
+30. uniq         - Filter duplicate lines
+31. grep         - Search text using patterns
+32. diff         - Compare file contents line by line
+33. cmp          - Compare files byte by byte
+34. alias        - Create a shortcut for a command
+35. unalias      - Remove an alias
+36. history      - View previously entered commands
+37. exit         - Exit the current shell
+38. logout       - Log out of a shell session
+39. env          - Show environment variables
+40. export       - Set environment variables
+41. read         - Read a line from user input
+42. printf       - Print formatted output
+43. which        - Show the path of a command
+44. type         - Show how a command is interpreted
+45. alias        - Create shortcut for command
+46. unalias      - Remove a defined alias
+47. source       - Execute commands from a file in current shell
+48. jobs         - List active jobs
+49. bg           - Resume a job in the background
+50. fg           - Resume a job in the foreground
+51. kill         - Terminate a process by PID
+52. sleep        - Pause script for a duration
+53. test         - Evaluate a conditional expression
+54. let          - Evaluate arithmetic expressions
+55. true         - Always return success
+56. false        - Always return failure
+57. help         - Display help for shell builtins
+58. cd ..        - Go up one directory
+59. cd ~         - Go to home directory
+60. cd -         - Switch to previous directory
+61. grep -i      - Case-insensitive search
+62. grep -r      - Recursive grep
+63. grep -v      - Exclude matching lines
+64. find         - Search for files in a directory tree
+65. locate       - Fast file search using database
+66. less         - View file content (better than cat for long files)
+67. more         - View file content page-by-page
+68. df -h        - Human-readable disk usage
+69. du -sh       - Folder size summary
+70. tar -czf     - Create compressed tarball
+71. tar -xzf     - Extract compressed tarball
+72. zip          - Archive files with zip format
+73. unzip        - Extract zip files
+74. file         - Determine file type
+75. history | grep - Search history
+76. echo $PATH   - Show system path
+77. echo $?      - Show last command exit code
+78. echo $USER   - Show current username
+79. echo $HOME   - Show home directory
+80. echo "Hello" > file.txt - Write to a file
+
+
+🟨 Type 2 – Most Important Commands
+
+1. fsck      - Check and repair file systems
+2. fdisk     - Partition disk drives
+3. mount     - Mount a file system
+4. umount    - Unmount a file system
+5. ps        - Show running processes
+6. top       - Dynamic process viewer
+7. kill      - Send signal to process (usually to stop)
+8. systemctl - Control system services and daemons
+9. shutdown  - Power off the system safely
+10. reboot   - Restart the system
+11. dd       - Low-level copying, backup, or cloning
+12. journalctl - Show system logs (systemd)
+13. passwd   - Change user password
+14. useradd  - Add a new user
+15. groupadd - Add a new group
+16. su       - Switch user
+17. sudo     - Execute command as superuser
+18. ip       - Show/manipulate IP routes and interfaces
+19. ifconfig - Legacy IP configuration tool
+20. modprobe - Load kernel modules
+21. crontab      - Schedule recurring jobs
+22. service      - Start, stop, restart system services
+23. iptables     - Configure firewall rules
+24. ufw          - User-friendly firewall frontend
+25. netstat      - Show network connections (deprecated)
+26. ss           - Show network sockets (modern netstat)
+27. ping         - Test network connectivity
+28. traceroute   - Trace the route to a host
+29. nslookup     - Query DNS information
+30. dig          - Detailed DNS query tool
+31. groupdel     - Delete a group
+32. userdel      - Delete a user
+33. usermod      - Modify a user account
+34. groupmod     - Modify a group
+35. vipw         - Securely edit the user password file
+36. visudo       - Securely edit the sudoers file
+37. mountpoint   - Check if a path is a mount point
+38. blkid        - Locate/print block device attributes
+39. swapon       - Enable swap devices
+40. swapoff      - Disable swap devices
+41. lsmod        - Show loaded kernel modules
+42. insmod       - Insert a kernel module
+43. rmmod        - Remove a kernel module
+44. depmod       - Generate module dependencies
+45. mkinitcpio    - Create initial RAM disk (Arch)
+46. update-initramfs - Update initramfs (Debian-based)
+47. grub-mkconfig - Generate GRUB config
+48. grub-install  - Install GRUB bootloader
+49. rescue       - Start in emergency mode
+50. auditctl     - Control the audit daemon
+51. ausearch     - Search audit logs
+52. netplan      - Modern network configuration (Ubuntu)
+53. nmcli        - NetworkManager command-line tool
+54. systemd-analyze - Analyze boot time
+55. timedatectl  - Set date, time, timezone
+56. hostnamectl  - Set hostname and machine info
+57. loginctl     - Manage user sessions
+58. adduser      - Debian-friendly user creation
+59. deluser      - Debian-friendly user removal
+60. visudo       - Safely edit sudo config (listed again because critical)
+61. ip addr      - Show IP addresses
+62. ip route     - Show routing table
+63. ip link      - Show or manipulate network interfaces
+64. ip neigh     - Manage ARP table
+65. ifdown       - Bring down a network interface
+66. ifup         - Bring up a network interface
+67. nmap         - Network scanner and port checker
+68. ss -tuln     - Show listening ports
+69. fail2ban     - Protect server from brute force attacks
+70. ufw status   - Show firewall status
+71. tcpdump      - Network packet analyzer
+72. iptables-save - Save firewall rules
+73. iptables-restore - Restore firewall rules
+74. ethtool      - Query/control network driver settings
+75. hostnamectl set-hostname - Set system hostname
+76. hwclock      - Show or set hardware clock
+77. systemctl status - Check service status
+78. systemctl enable - Enable service at boot
+79. systemctl disable - Disable a service
+80. systemctl restart - Restart a systemd service
+
+
+🟦 Type 3 – Less Common but Efficient Commands
+
+1. fsck      - Check and repair file systems
+2. fdisk     - Partition disk drives
+3. mount     - Mount a file system
+4. umount    - Unmount a file system
+5. ps        - Show running processes
+6. top       - Dynamic process viewer
+7. kill      - Send signal to process (usually to stop)
+8. systemctl - Control system services and daemons
+9. shutdown  - Power off the system safely
+10. reboot   - Restart the system
+11. dd       - Low-level copying, backup, or cloning
+12. journalctl - Show system logs (systemd)
+13. passwd   - Change user password
+14. useradd  - Add a new user
+15. groupadd - Add a new group
+16. su       - Switch user
+17. sudo     - Execute command as superuser
+18. ip       - Show/manipulate IP routes and interfaces
+19. ifconfig - Legacy IP configuration tool
+20. modprobe - Load kernel modules
+21. basename     - Strip directory and suffix from filename
+22. yes          - Output a string repeatedly
+23. nl           - Number lines of a file
+24. tac          - Reverse cat: print files in reverse
+25. bc           - Calculator in terminal
+26. factor       - Print prime factors of a number
+27. column       - Format text in columns
+28. rev          - Reverse lines character by character
+29. paste        - Merge lines of files
+30. split        - Split files into pieces
+31. diffstat     - Produce histogram of diff output
+32. sha256sum    - Generate or check file SHA-256 hash
+33. md5sum       - Generate or check MD5 hash
+34. watch        - Re-run a command every few seconds
+35. timeout      - Run command with time limit
+36. shuf         - Randomly shuffle lines
+37. seq          - Print numeric sequences
+38. printf       - Format and print data
+39. fold         - Wrap text to a specific width
+40. sponge       - Soak up input before writing output
+41. mapfile      - Read lines into an array
+42. declare      - Declare variables and attributes
+43. compgen      - List available commands
+44. bind         - Show or set key bindings
+45. pushd        - Add directory to stack and cd into it
+46. popd         - Remove top dir from stack and cd back
+47. dirs         - Show dir stack
+48. disown       - Remove job from shell management
+49. command      - Run a command, ignoring shell functions/aliases
+50. wait         - Wait for background jobs
+51. getopts      - Parse command-line options
+52. yes | cmd    - Automatically answer yes to prompts
+53. sdiff        - Side-by-side file comparison
+54. fold         - Wrap long lines of text
+55. nl           - Number lines of a file
+56. cut          - Remove sections from each line of a file
+57. paste        - Merge lines of files side-by-side
+58. comm         - Compare two sorted files line by line
+59. join         - Join lines of two files on a common field
+60. expr         - Evaluate expressions (arithmetic, strings)
+61. stat -c      - Format file stats
+62. flock        - File locking utility
+63. basename "$0" - Get script name
+64. realpath     - Get absolute path
+65. mktemp       - Create temporary files
+66. timeout 5s   - Limit execution to 5 seconds
+67. tac file     - Reverse file content
+68. join file1 file2 - Merge matching lines
+69. split -l 100 - Split file into chunks
+70. mapfile -t   - Read lines into array
+71. printf '%s\n' "${arr[@]}" - Print array in bash
+72. declare -p   - Display variable declarations
+73. bind -P      - Show keybindings
+74. dirs -v      - View directory stack
+75. pushd ..     - Add dir and cd
+76. popd         - Remove last dir
+77. unexpand     - Convert spaces to tabs
+78. expand       - Convert tabs to spaces
+79. ptx          - Permuted index generator
+80. mkfifo       - Create named pipe
+
+
+🟫 Type 4 – Rarely Used Commands
+
+
+1. ed          - Line editor from early Unix
+2. at          - Schedule a command to run once at a specific time
+3. talk        - Chat with another logged-in user
+4. wall        - Broadcast message to all users
+5. expr        - Evaluate expressions
+6. biff        - Mail notification service
+7. write       - Send messages to another user
+8. lpq         - Display printer queue status
+9. lpr         - Print files
+10. lpc        - Line printer control program
+11. mesg       - Control write permissions on your terminal
+12. uudecode   - Decode a uuencoded file
+13. uuencode   - Encode binary files for email
+14. mkfs       - Create a file system
+15. tunctl     - Create and manage TUN/TAP devices
+16. whoami     - Display current user ID
+17. telinit    - Change runlevel
+18. init       - Low-level init system (pre-systemd)
+19. last       - Show recent user logins
+20. hostname   - Show or set system hostname
+21. killall      - Kill processes by name
+22. renice       - Change priority of a running process
+23. chroot       - Run a command with a new root directory
+24. watchfile    - Watch file for changes (rare alt to `watch`)
+25. setserial    - Configure serial ports (very old)
+26. hdparm       - Get/set hard drive parameters
+27. lscpu        - Show CPU architecture details
+28. lspci        - Show PCI devices
+29. lsblk        - Show block devices
+30. isoinfo      - Extract info from ISO9660 images
+31. mount -o loop - Mount ISO or disk images
+32. lpstat       - Display print system status
+33. lpadmin      - Manage print queues
+34. sg           - Execute command as group
+35. mii-tool     - Show ethernet device status
+36. rdate        - Set system date from network time
+37. chkconfig    - Manage runlevel programs (SysV init)
+38. ntpdate      - Sync system time
+39. time         - Measure execution time of a command
+40. edquota      - Edit user disk quotas
+41. watch -n 5    - Run a command every 5 seconds
+42. banner       - Print a large ASCII banner
+43. look         - Find lines beginning with string
+44. mtr          - Network diagnostic combining ping and traceroute
+45. ar           - Create/modify archive libraries
+46. strings      - Print readable strings from binary files
+47. od           - Dump file in octal/hex/binary
+48. hexdump      - Display hexadecimal view of file
+49. units        - Convert between units
+50. bc           - Precision calculator
+51. cksum        - Print CRC checksum
+52. sum          - Calculate checksums
+53. logger       - Log messages to syslog
+54. renice       - Change running process priority
+55. tzselect     - Timezone selection script
+56. watchfile    - Watch changes to a file
+57. vipw         - Securely edit /etc/passwd
+58. chage        - Change password aging
+59. logrotate    - Manage system logs rotation
+60. pgrep        - Find processes by name
+61. finger       - User info lookup
+62. who          - Show who is logged in
+63. w            - Who is logged in and what they are doing
+64. ac           - Show time logged in
+65. users        - Show current logged-in users
+66. nologin      - Prevent user logins
+67. wall "msg"   - Send broadcast message to all users
+68. eject        - Eject removable media
+69. rdate        - Set date from remote server
+70. chfn         - Change user info (full name etc.)
+71. vipw -s      - Edit secure group file
+72. grpck        - Verify integrity of /etc/group
+73. pwck         - Verify /etc/passwd file
+74. quota        - Display disk quotas
+75. repquota     - Report on disk quotas
+76. edquota -u   - Edit quotas for user
+77. iostat       - Report CPU & disk stats
+78. vmstat       - Show system performance
+79. uptime       - Show how long system has been up
+80. hostid       - Show numeric identifier of host
+
+
+🟪 Type 5 – Unknown Treasure Commands 
+
+1. fzf         - Fuzzy file finder
+2. bat         - cat alternative with syntax highlighting
+3. ripgrep     - Fast grep alternative
+4. tldr        - Community-driven man page summaries
+5. ncdu        - Ncurses Disk Usage analyzer
+6. broot       - Tree explorer + fuzzy finder
+7. httpie      - Modern curl replacement
+8. glances     - System monitoring tool
+9. exa         - Modern ls replacement
+10. duf        - Disk Usage/Free space viewer
+11. fd         - Faster find alternative
+12. dust       - Intuitive disk usage tool
+13. btop       - Advanced system monitor
+14. bpytop     - Resource monitor (Python-based)
+15. rs         - Restore from rsync-based backup
+16. taskwarrior - Command-line task manager
+17. xclip      - Access X clipboard from terminal
+18. curlie     - curl + UI wrapper
+19. entr       - Run command when files change
+20. lnav        - Log file viewer with syntax support
+21. rg           - ripgrep (faster alternative to grep)
+22. delta        - Syntax-highlighted git diff viewer
+23. procs        - Modern replacement for `ps`
+24. gping        - Graphical ping in terminal
+25. viu          - View images in terminal
+26. ranger       - Terminal file manager
+27. nnn          - Blazing-fast terminal file browser
+28. jless        - JSON viewer in terminal
+29. yq           - jq for YAML files
+30. dog          - DNS lookup tool like dig, but prettier
+31. choose       - Terminal UI for selection (stdin)
+32. ffsend       - CLI for Firefox Send (end-to-end encrypted sharing)
+33. trash-cli    - Safely move files to trash instead of rm
+34. cheat        - Interactive cheatsheet system
+35. gitui        - TUI for Git (clean UI for commits)
+36. glow         - Render markdown files in terminal
+37. proot        - Emulate root-like environments
+38. shellcheck   - Linter for shell scripts
+39. updog        - Simple file server, better than Python’s http.server
+40. xh           - Modern `curl` alternative for humans
+41. lsd          - Modern `ls` with icons and colors
+42. dua          - Disk usage analyzer (Rust-based)
+43. bandwhich    - Bandwidth monitor in terminal
+44. mcfly        - Smart history search for bash/zsh
+45. doggo        - Fast modern DNS client
+46. procs        - ps alternative with highlighting
+47. bottom       - Like htop, but better
+48. jnv          - JSON viewer and explorer
+49. httpstat     - curl + statistics
+50. tgrep        - Time-aware grep tool
+51. cpulimit     - Limit CPU usage of a process
+52. dstat        - Replacement for vmstat/iostat/netstat
+53. colordiff    - Colorized diff output
+54. multitail    - Follow multiple log files in real time
+55. batgrep      - Grep with bat formatting
+56. icdiff       - Improved diff for humans
+57. git-delta    - Syntax-highlighted diff engine for Git
+58. prettyping   - Prettier ping output
+59. trash-put    - Safer rm alternative
+60. up           - Super simple local file sharing
+61. just         - Modern replacement for make
+62. zoxide       - Smarter cd with memory
+63. git-extras   - Git utilities: release, changelog, etc.
+64. starship     - Beautiful, fast shell prompt
+65. dust         - Better `du` visualized
+66. dog          - Pretty DNS tool
+67. fselect      - SQL-like file search
+68. grex         - Generate regex from human text
+69. http-server  - Simple local server (Node.js)
+70. xcp          - Faster cp with progress
+71. xargs -P     - Run parallel jobs
+72. ouch         - Compress/decompress anything
+73. zcat         - View compressed files
+74. git-fuzzy    - Fuzzy finder for Git
+75. exa -l --git - Git-aware file lister
+76. du -ah --max-depth=1 - Disk usage with file details
+77. fd .         - Search files in current dir
+78. rg --files   - Ripgrep: list all files
+79. top -H       - Show threads in top
+80. sd           - Fast find & replace (like sed)
+
+
